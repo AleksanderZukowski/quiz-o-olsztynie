@@ -1,0 +1,108 @@
+@font-face {
+    font-family: rubik;
+    src: url(Rubik-font/Rubik-VariableFont_wght.ttf);
+  }
+
+body {
+    background-color: #dfdfef;
+    font-family: rubik;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+
+}
+
+nav {
+    width: 100%;
+    border-bottom: 0.7vh solid black;
+    background-color: lightgray;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    height: 6vh;
+    margin-left: 1vh;
+    margin-top: 4vh;
+}
+
+main {
+    margin: 12px;
+    margin-top: 20px;
+    height: 40vh;
+    font-size: 4vh;
+}
+
+#question{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#answer {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button {
+    float:left;
+    height: 10vh;
+    width: 20vw;
+    font-size: 4vh;
+    border-radius: 10px;
+    border: 0.7vh solid black;
+    background-color: lightgray;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+footer {
+    margin-top: 30vh;
+    font-size: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#question-bar {
+    letter-spacing: 0.4vw;
+    font-size: 4vh;
+    text-shadow: 1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+
